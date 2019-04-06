@@ -16,6 +16,7 @@ More on classes: https://www.tutorialspoint.com/java/java_object_classes.htm
 
 ### Starting with Android Studio
 Install Android Studio as this using the link: https://developer.android.com/studio/
+
 Then open Android Studio
 
 1. Create a new project and name it Calculator. Click Next.
