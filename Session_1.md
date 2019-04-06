@@ -24,7 +24,7 @@ Then open Android Studio
 
 Next we discussed about building the layout of the Calculator app using XML. The layout of our app is defined in `activity_main.xml`. Click on `activity_main.xml`. 
 
-![Android Studio](help.png)
+![Android Studio](img1_sess1.png)
 
 Initially, you'll be seeing the layout rendered on your screen. Switch the mode text mode and replace the code in `activity_main.xml` with this:
 
