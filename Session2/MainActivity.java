@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
     int[] opButtonIds = { R.id.b_add, R.id.b_subtract, R.id.b_div, R.id.b_mul, R.id.b_equal };
 
     Button numberButtons[] = new Button[10];    // An array of 10 number buttons
-    Button opButtons[] = new Button[10];        // An array of 5 op buttons
+    Button opButtons[] = new Button[5];        // An array of 5 op buttons
     TextView resultBox;                         // The result text box
     Button clearButton;
 
