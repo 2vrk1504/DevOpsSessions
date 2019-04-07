@@ -61,7 +61,7 @@ public class MainActivity extends Activity {
         }
 
         //Initialize all the op buttons
-        for(int i = 0; i < 10; i++){
+        for(int i = 0; i < 5; i++){
             opButtons[i] = findViewById(opButtonIds[i]);
             opButtons[i].setOnClickListener(opListener);
         }
