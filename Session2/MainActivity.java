@@ -134,6 +134,7 @@ public class MainActivity extends Activity {
 
             opClicked = true; // An operator was clicked now
             resultBox.setText(Double.toString(prevNum));
+            prevOp = ((Button) v).getText().toString();
         }
     };
 }
