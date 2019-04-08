@@ -1,0 +1,32 @@
+<html>
+
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular-route.min.js"></script>
+        <script src="./app.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+
+    <body ng-app="firstapp" ng-controller="myCtrl">
+        <input class="form-control" ng-change="emailchange()" ng-model="email" type="email">
+        <br>
+        <input class="form-control" ng-model="pass" ng-change="passchange()" type="password">
+        <br>
+        <input class="form-control" ng-model="cpass" ng-change="cpasschange()" type="password">
+        <br>
+        <button class="btn btn-primary" ng-click="submit()">Submit</button>
+        
+
+    </body>
+    <script>
+        var h3 = document.getElementById("h3");
+        console.log(h3.innerHTML);
+    function clickvalue(){
+        var inp = document.getElementById("name")
+
+        console.log(inp);
+    }
+    </script>
+
+</html>
